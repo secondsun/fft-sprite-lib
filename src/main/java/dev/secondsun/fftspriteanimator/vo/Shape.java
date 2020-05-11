@@ -1,4 +1,4 @@
-package dev.secondsun.fftspriteanimator;
+package dev.secondsun.fftspriteanimator.vo;
 
 
 import java.awt.Rectangle;

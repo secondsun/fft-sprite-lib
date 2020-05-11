@@ -1,4 +1,4 @@
-package dev.secondsun.fftspriteanimator;
+package dev.secondsun.fftspriteanimator.vo;
 
 import java.util.HashSet;
 import java.util.List;

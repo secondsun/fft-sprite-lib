@@ -1,7 +1,6 @@
-package dev.secondsun.fftspriteanimator;
+package dev.secondsun.fftspriteanimator.vo;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 /**
@@ -10,7 +9,7 @@ import java.util.List;
 public class Sequences {
 
     List<Integer> offsets = new ArrayList<>(0x100);
-    List<Sequence> sequences = new ArrayList<>();
+    public List<Sequence> sequences = new ArrayList<>();
     /**
      * Offsets are the start of an animation in the seq file.
      * Animations begin at such that animation N begins at 0x0406 + offset[N]

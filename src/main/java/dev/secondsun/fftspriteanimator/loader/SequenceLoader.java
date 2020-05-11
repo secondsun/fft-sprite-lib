@@ -1,7 +1,9 @@
-package dev.secondsun.fftspriteanimator;
+package dev.secondsun.fftspriteanimator.loader;
 
 
-import jdk.jshell.execution.Util;
+import dev.secondsun.fftspriteanimator.vo.AnimationFrame;
+import dev.secondsun.fftspriteanimator.vo.Sequence;
+import dev.secondsun.fftspriteanimator.vo.Sequences;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -61,9 +63,9 @@ public final class SequenceLoader {
         }
 
         final int animationStart = 0x0406;
-        final List<Integer> offsets = seqs.offsets;
+        final List<Integer> offsets = seqs.getOffsets();
 
-        var result = new ArrayList<>(seqs.offsets.size());
+        var result = new ArrayList<>(seqs.getOffsets().size());
 
         for (int i = 0; i < offsets.size() - 1; i++) {
             if (offsets.get(i) == offsets.get(i + 1))

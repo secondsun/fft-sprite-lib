@@ -1,9 +1,8 @@
 package dev.secondsun.fftspriteanimator;
 
-import org.junit.jupiter.api.Assertions;
+import dev.secondsun.fftspriteanimator.loader.SequenceLoader;
 import org.junit.jupiter.api.Test;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;

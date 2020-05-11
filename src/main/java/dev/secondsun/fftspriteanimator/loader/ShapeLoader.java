@@ -1,7 +1,8 @@
-package dev.secondsun.fftspriteanimator;
+package dev.secondsun.fftspriteanimator.loader;
 
+import dev.secondsun.fftspriteanimator.vo.Frame;
+import dev.secondsun.fftspriteanimator.vo.Shape;
 import java.awt.Rectangle;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
